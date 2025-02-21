@@ -29,9 +29,37 @@
 		4878C9392D68022F00EB3D24 /* MatchDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4878C96D2D6807D500EB3D24 /* Exceptions for "MatchDay" folder in "MatchDay" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Preview Content/APIDetail.txt",
+				"Preview Content/DailyNotes.txt",
+				"Preview Content/DailyPlan.txt",
+			);
+			target = 4878C91E2D68022D00EB3D24 /* MatchDay */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		4878C96E2D6807D500EB3D24 /* Exceptions for "MatchDay" folder in "Compile Sources" phase from "MatchDay" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 4878C91B2D68022D00EB3D24 /* Sources */;
+			membershipExceptions = (
+				"Preview Content/APIDetail.txt",
+				"Preview Content/DailyNotes.txt",
+				"Preview Content/DailyPlan.txt",
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4878C9212D68022D00EB3D24 /* MatchDay */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4878C96D2D6807D500EB3D24 /* Exceptions for "MatchDay" folder in "MatchDay" target */,
+				4878C96E2D6807D500EB3D24 /* Exceptions for "MatchDay" folder in "Compile Sources" phase from "MatchDay" target */,
+			);
 			path = MatchDay;
 			sourceTree = "<group>";
 		};

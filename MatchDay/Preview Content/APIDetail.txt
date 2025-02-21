@@ -1,0 +1,18 @@
+//
+//  APIDetail.swift
+//  MatchDay
+//
+//  Created by Ramesh Shanmugam on 21/02/25.
+//
+
+Info:
+
+Repo URL: https://github.com/Ramesh1402/MatchDay
+
+API Key = 8c8ff01a-004a-42b7-9a6f-a554e63487a3
+
+https://api.cricapi.com/v1/currentMatches?apikey=8c8ff01a-004a-42b7-9a6f-a554e63487a3&offset=0
+
+
+Need to read next:
+1. Read about some view & any view, when to use view builder

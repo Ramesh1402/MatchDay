@@ -1,0 +1,14 @@
+//
+//  DailyPlan.swift
+//  MatchDay
+//
+//  Created by Ramesh Shanmugam on 21/02/25.
+//
+
+5.45 -> 8
+10.30 -> 12.30
+2.30 -> 4.30
+6.30 -> 8.30
+
+
+March 21 -> Resume Preparation

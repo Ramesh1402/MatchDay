@@ -1,0 +1,22 @@
+//
+//  DailyNotes.swift
+//  MatchDay
+//
+//  Created by Ramesh Shanmugam on 21/02/25.
+//
+
+21-02-25
+
+1. Create empty project and set up git
+      - Create git hub repo
+      - Create local project with git support
+      - add remote -> git remote add origin https://github.com/Ramesh1402/MatchDay.git
+      - To check added remotes -> git remote -v
+      - To set upstream -> git branch --set-upstream-to origin/main
+      - set up pull to show conflicts -> git config pull.rebase true
+      - To Force Push -> ggpush -f
+2.List with static Data
+3.@Observable ViewModel
+4.List with data from view model
+5.Async function, do catch
+6.switch views with enum
