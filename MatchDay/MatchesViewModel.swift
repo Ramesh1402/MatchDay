@@ -9,24 +9,23 @@ import Foundation
 import Observation
 
 @Observable class MatchesViewModel {
-    var matches: [String] = []
     var loadingState: LoadinState = .loading
+    
+    let cricketAPIService = CricketAPIService()
     
     func loadMatches() async {
         loadingState = .loading
         do {
-            try await Task.sleep(for: .seconds(5))
-            matches = ["Ind Vs Eng", "SA vs AUS", "ENG vs NZ", "IND vs SA", "AUS vs NZ"]
-            loadingState = .success
+            let matches = try await cricketAPIService.fetchCurrentMatches()
+            loadingState = .success(matches)
         } catch {
             loadingState = .failure
         }
-       
     }
 }
 
 enum LoadinState {
     case loading
-    case success
+    case success([Match])
     case failure
 }

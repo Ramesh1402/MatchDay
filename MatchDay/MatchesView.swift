@@ -15,10 +15,10 @@ struct MatchesView: View {
             switch viewModel.loadingState {
             case .loading:
                 ProgressView()
-            case .success:
+            case .success(let matches):
                 List {
-                    ForEach(viewModel.matches, id: \.self) { match in
-                        Text(match)
+                    ForEach(matches) { match in
+                        Text(match.name)
                     }
                 }
             case .failure:
