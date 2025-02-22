@@ -20,3 +20,30 @@
 4.List with data from view model
 5.Async function, do catch
 6.switch views with enum
+7.Wrote CricketAPIService, URL Components - https://www.swiftbysundell.com/articles/constructing-urls-in-swift/
+8.enum with associatedValue
+9.any vs some (some View) - https://www.avanderlee.com/swift/associated-types-protocols/ , https://www.youtube.com/watch?v=AvRirfTKR9g
+
+
+
+
+22-02-25
+
+Parse Full Json -> Single Value Container, enum CaseIterable for all cases
+Image Assets -> Rendering Mode
+Create Cutom List Items -> Async Image
+NavStack -> LazyLoad, stackPath
+
+OOPS - https://medium.com/swift-india/oops-in-swift-998738407423
+SOLID - https://www.kodeco.com/21503974-solid-principles-for-ios-apps
+Design Pattern - MVVM, Repository pattern, Singleton, Delegate pattern
+Swift Concurrency
+
+
+Things to learn
+Debugging
+Hashable, Identifiable, Equatable
+
+
+
+
