@@ -17,13 +17,15 @@ struct MatchesView: View {
                 case .loading:
                     ProgressView()
                 case .success(let matches):
-                    List {
-                        ForEach(matches) { match in
-                            NavigationLink(value: match) {
-                                MatchCardView(match: match)
-                                    .listRowInsets(EdgeInsets())
-                                    .padding(.bottom, 4)
-                                    .background(Color.gray.opacity(0.3))
+                    VStack {
+                        List {
+                            ForEach(matches) { match in
+                                NavigationLink(value: match) {
+                                    MatchCardView(match: match)
+                                        .listRowInsets(EdgeInsets())
+                                        .padding(.bottom, 4)
+                                        .background(Color.gray.opacity(0.3))
+                                }
                             }
                         }
                     }

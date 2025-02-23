@@ -23,8 +23,7 @@
 7.Wrote CricketAPIService, URL Components - https://www.swiftbysundell.com/articles/constructing-urls-in-swift/
 8.enum with associatedValue
 9.any vs some (some View) - https://www.avanderlee.com/swift/associated-types-protocols/ , https://www.youtube.com/watch?v=AvRirfTKR9g
-
-
+10.Problem Statement - Fibonaci
 
 
 22-02-25
@@ -37,13 +36,22 @@ NavStack -> LazyLoad, stackPath
 OOPS - https://medium.com/swift-india/oops-in-swift-998738407423
 SOLID - https://www.kodeco.com/21503974-solid-principles-for-ios-apps
 Design Pattern - MVVM, Repository pattern, Singleton, Delegate pattern
-Swift Concurrency
+SwiftUI / UIKit Interoperability - UIViewControllerRepresentable & Coordinator, UIHostingViewController
+Problem Statement - Bijection
 
 
 Things to learn
 Debugging
 Hashable, Identifiable, Equatable
+Swift Concurrency
 
 
 
+23-02-25
+
+DI using swift-dependency, simple unit test -> API service to swift dependency, testValue, unit test, app lifecycle for unit tests
+Application Life Cycle
+Hashable, Identifiable, Equatable
+Debugging
+Swift Concurrency
 

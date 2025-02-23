@@ -11,7 +11,13 @@ import SwiftUI
 struct MatchDayApp: App {
     var body: some Scene {
         WindowGroup {
-            MatchesView()
+            if isProduction {
+                MatchesView()
+            }
         }
+    }
+    
+    private var isProduction: Bool {
+        NSClassFromString("XCTestCase") == nil
     }
 }

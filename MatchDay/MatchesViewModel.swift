@@ -5,13 +5,15 @@
 //  Created by Ramesh Shanmugam on 21/02/25.
 //
 
+import Dependencies
 import Foundation
 import Observation
 
 @Observable class MatchesViewModel {
     var loadingState: LoadinState = .loading
     
-    let cricketAPIService = CricketAPIService()
+    @ObservationIgnored
+    @Dependency(\.cricketAPIService) var cricketAPIService
     
     func loadMatches() async {
         loadingState = .loading
@@ -24,8 +26,10 @@ import Observation
     }
 }
 
-enum LoadinState {
+enum LoadinState: Equatable {
     case loading
     case success([Match])
     case failure
 }
+
+
